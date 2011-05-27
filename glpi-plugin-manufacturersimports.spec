@@ -1,6 +1,6 @@
 %define name glpi-plugin-manufacturersimports
 %define version 1.3.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Financials informations from manufacturers web site plugin
 Name: %{name}
@@ -22,9 +22,9 @@ This plugin allows you to inject financials informations from manufacturers web 
 %install
 rm -rf %{buildroot}
 
-install -d -m 755 %{buildroot}%{_datadir}/glpi/plugins/suppliertag
-cp -ap * %{buildroot}%{_datadir}/glpi/plugins/suppliertag
-rm -f %{buildroot}%{_datadir}/glpi/plugins/suppliertag/prerequis.txt
+install -d -m 755 %{buildroot}%{_datadir}/glpi/plugins/manufacturersimports
+cp -ap * %{buildroot}%{_datadir}/glpi/plugins/manufacturersimports
+rm -f %{buildroot}%{_datadir}/glpi/plugins/manufacturersimports/prerequis.txt
 
 %clean
 rm -rf %{buildroot}
@@ -32,4 +32,4 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %doc prerequis.txt
-%{_datadir}/glpi/plugins/suppliertag
+%{_datadir}/glpi/plugins/manufacturersimports
