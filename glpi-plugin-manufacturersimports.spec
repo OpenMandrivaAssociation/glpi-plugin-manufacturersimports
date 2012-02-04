@@ -1,6 +1,6 @@
 %define name glpi-plugin-manufacturersimports
-%define version 1.3.0
-%define release %mkrel 2
+%define version 1.4.1
+%define release %mkrel 1
 
 Summary: Financials informations from manufacturers web site plugin
 Name: %{name}
@@ -9,7 +9,7 @@ Release: %{release}
 License: GPL
 Group: Monitoring
 Url: https://forge.indepnet.net/projects/show/manufacturersimports
-Source0: https://forge.indepnet.net/attachments/download/296/glpi-manufacturersimports-%{version}.tar.gz
+Source0: https://forge.indepnet.net/attachments/download/981/glpi-manufacturersimports-%{version}.tar.gz
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}
 
